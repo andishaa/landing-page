@@ -8,10 +8,10 @@ body {
 
 .main {
     background-color: #1F2937;
+    color: white;
 }
 
 .header {
-    color: white;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -25,6 +25,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 .navi {
@@ -39,4 +40,39 @@ li {
 a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
+}
+.slider {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+}
+
+.slider-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.slider-image {
+    width: 480px;
+    height: 280px;
+    background-color: grey;
+}
+
+.slider-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+    font-weight: bold;
+    padding: 5px 20px;
 }
